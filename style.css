@@ -141,12 +141,12 @@ header {
 
 .aboutus {
   background-color: white;
-  padding-bottom: 50px;
   display: flex;
   /* flex-wrap: wrap; */
   gap: 3%;
   justify-content: center;
   align-items: center;
+
 }
 
 .aboutusText {
@@ -207,6 +207,158 @@ header {
   display: inline-block;
   transition: background-color 0.6s ease;
 }
+
+.polygon2 {
+  margin-top: 85px;
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  right: 95%;
+  margin-bottom: 10%;
+  display: inline-block;
+  background: rgba(92, 193, 178, 0.8);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 2px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  transform: rotate(43deg);
+}
+
+.ourobjectives {
+  background-color: white;
+
+}
+
+.ourobjectives h2{
+  padding-top: 200px;
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 72px;
+  text-align: center;
+
+  color: #6452A2;
+}
+
+.elements {
+  padding: 0 180px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.element {
+  display: flex;
+  border: 5px solid #398E82;
+  width: 300px;
+  height: 100px;
+  box-sizing: border-box;
+  filter: drop-shadow(-3px 10px 20px rgba(0, 0, 0, 0.25));
+  border-radius: 20px;
+  margin: 2%;
+}
+
+.number {
+  width: 74px;
+  height: 90px;
+  left: 621px;
+  top: 1644px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 65px;
+  text-align: center;
+  padding-top: auto;
+  color: white;
+
+  background: #398E82;
+}
+
+.ele-text {
+  font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 5px;
+/* or 104% */
+  width: 200px;
+text-transform: capitalize;
+
+color: #000000;
+}
+
+.elements-row-1 {
+  display: flex;
+}
+
+.elements-row-1 div{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+.elements-row-2 {
+  display: flex;
+}
+
+.elements-row-2 p {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+.quote {
+  background: url(img/Rectangle\ 17.png);
+  height: 640px;
+  width: 100%;
+  border-radius: 8px;
+
+
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+.quote-first-line {
+  display: flex;
+  padding: 5% 17%;
+  padding-right: 10%;
+  padding-bottom: 2%;
+}
+.quote-first-line img {
+  height: 258px;
+  width: 895px;
+}
+
+#left-quote{
+  height: 29px;
+  width: 35px;
+  margin-right: 15px;
+}
+
+#right-quote{
+  margin-top: 300px;
+  height: 29px;
+  width: 35px;
+}
+
+#finance {
+  margin: 45px 25px;
+}
+
+#alan {
+  margin-left: 60%;
+  margin-top: -10px;
+}
+
 
 .getInvolved {
   background-color: #e7f6f3;
@@ -297,3 +449,4 @@ header {
   font-size: 15px;
   font-family: "Metropolis", "PT Sans", sans-serif;
 }
+
